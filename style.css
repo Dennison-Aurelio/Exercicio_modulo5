@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, section h2, section h3, form button {  /*inclisão de fontes*/
+    font-family: 'Carter One', cursive;
+    font-weight: normal;
+}
+body, input, textarea {
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+
+
+header {
+    padding: 16px 0;  /*espaçamento interno*/
+    background-color: #00532e;
+    color: #ecf0c1 ;
+    display: flex;
+    
+}
+
+header img {
+    height: 160px;
+    
+}
+
+h1 {
+    font-size: 70px;
+}
+
+header nav li {      /*menu*/
+    display: inline;
+    margin-left: 16px;  /*Espaçamento entro os menus*/
+    font-size: 20px; /* tamanho da fonte*/
+}
+
+header nav li a {
+    color: #ecf0c1;
+    text-decoration: none; /*retira o sublinhado dos links do menu*/
+} 
+
+
+.container {
+    max-width: 1280px;  /*largura máxima da tela*/
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center; /*alinha os itens no centro*/
+    justify-content: space-between; /**/ /*joga o conteudo do menu para a direita*/
+}
+
+.tamanho-fonte p {
+font-size: 20px;
+text-align: justify;
+
+}
+
+.patrocinadores,   .faixa img{
+    background-color: #f183e8;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faixa {
+    background-color: #00532e;
+    height: 440px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.faixa img{
+height: 350px;
+}
+
+.central, h3  {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faixa {
+    color: #ecf0c1;
+}
+
+.brands-list img {
+    height: 24px;
+    
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px; /*espaçamento entre linhas*/
+    
+}
+
+section {
+    color: #00532e; /*cor do fale conosco das redes sociais e endereço*/
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+    height: 450px;
+}
+
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+display: inline;
+margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;  /*Largura dos campos contato*/
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+form textarea {
+    resize: none; 
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #00532e;
+    color: #ecf0c1;
+    border: none;
+    cursor: pointer; /*o cursor vira uma mãozinha*/
+}
+
+form button:hover {  /*quando passa o mouse em cima muda de cor a caixinha de enviar*/
+    background-color: #0c9b5a;
+}
+
+input:focus, textarea:focus {
+    outline-color: #00532e;
+}
+
+.hino audio {
+    display: inline;
+    transform: translate(230%, -40%);
+   
+}
+
+footer {
+    
+    background-color: #00532e;
+    color: #ecf0c1;
+    padding: 16px 0;
+    
+}
+
+footer img {
+    height: 12px;
+    justify-content: space-between;
+}
